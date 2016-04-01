@@ -1,0 +1,9 @@
+db:
+  image: postgres:9.4
+  ports:
+  - "5432:5432"
+  environment:
+    POSTGRES_USER: 'phoenix'
+    POSTGRES_PASSWORD: 'ikki'
+  volumes:
+    - data:/var/lib/postgres/data
