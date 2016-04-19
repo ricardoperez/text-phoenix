@@ -4,11 +4,14 @@
 </div>
 
 <div class="jumbotron">
-<div id="messages" >
-     ladslalsd
-asdlasdlasdl
-</div>
+  <div id="messages" >
+  </div>
 </div>
 
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">@</span>
+  <input id="chat-name" type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+</div>
 <div id="chat-input" contenteditable="true" class="jumbotron">
+    Click here to start chating...
 </div>
